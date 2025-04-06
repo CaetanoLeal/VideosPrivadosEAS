@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <nav-bar />
     <v-main>
       <router-view />
     </v-main>
@@ -7,15 +8,12 @@
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue' // ajuste o caminho se estiver diferente
 
 export default {
   name: 'App',
-
   components: {
-  },
-
-  data: () => ({
-    //
-  })
+    NavBar
+  }
 }
 </script>

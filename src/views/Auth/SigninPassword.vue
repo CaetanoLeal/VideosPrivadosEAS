@@ -2,32 +2,24 @@
   <div>
     <div class="text-center w-100">
       <h1 class="text-h5 mb-2">
-        {{ $vuetify.lang.t('$vuetify.auth.sign-in-password.title') }}
+        Bem-vindo!
       </h1>
-      <v-chip
-        class="mb-10"
-        outlined
-        link
-        @click="$router.push({ name: 'signin' })"
-      >
-        <v-avatar left>
-          <v-icon color="secondary">
-            mdi-account-circle
-          </v-icon>
-        </v-avatar>
-        email@example.com
-        <v-avatar right>
-          <v-icon color="secondary">
-            mdi-chevron-down
-          </v-icon>
-        </v-avatar>
-      </v-chip>
+      logo do cliente aqui
+      <v-img
+        class="mb-10 mx-auto d-block"
+        src="@/assets/logo.svg"
+        alt="Vuetify Logo"
+        contain
+        height="80"
+        width="80"
+      />
 
       <v-form>
         <v-text-field
+          v-model="password"
           class="mb-10"
           :append-icon="show ? 'mdi-eye-off-outline' : 'mdi-eye-outline'"
-          :label="$vuetify.lang.t('$vuetify.auth.sign-in-password.enter-password')"
+          :label="$vuetify.lang.t('senha')"
           name="password"
           :type="show ? 'input' : 'password'"
           hide-details="auto"
@@ -44,16 +36,16 @@
           text
           @click="wip"
         >
-          {{ $vuetify.lang.t('$vuetify.auth.sign-in-password.forgot-password') }}
+          Não sei a senha
         </v-btn>
         <v-btn
           class="text-none"
           style="min-width: 88px;"
           color="primary"
           depressed
-          @click="$router.push({ name: 'password' })"
+          @click="next"
         >
-          {{ $vuetify.lang.t('$vuetify.auth.sign-in-password.next') }}
+          {{ $vuetify.lang.t('Entrar') }}
         </v-btn>
       </div>
     </div>
@@ -80,7 +72,14 @@ export default {
   },
 
   methods: {
-    wip
+    wip,
+    next () {
+      if (this.password === 'minhaSenhaSuperSecreta') {
+        this.$router.push({ name: 'videos' })
+      } else {
+        alert('Senha incorreta!')
+      }
+    }
   }
 }
 </script>

@@ -2,10 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Auth from '@/views/Auth/Auth'
-import Signin from '@/views/Auth/Signin'
-import SigninIdentifier from '@/views/Auth/SigninIdentifier'
 import SigninPassword from '@/views/Auth/SigninPassword'
-import Signup from '@/views/Auth/Signup'
+import VideosPage from '@/views/Auth/VideosPage'
 
 Vue.use(VueRouter)
 
@@ -15,40 +13,25 @@ const routes = [
     component: Auth,
     children: [
       {
-        path: 'signin',
-        component: Signin,
-        children: [
-          {
-            path: 'identifier',
-            name: 'signin',
-            component: SigninIdentifier
-          }, {
-            path: 'password',
-            name: 'password',
-            component: SigninPassword
-          }
-        ]
-      }, {
-        path: 'signup',
-        component: Signup,
-        name: 'signup'
+        path: 'password',
+        name: 'password',
+        component: SigninPassword
       }
     ]
-  }, {
+  },
+  {
+    path: '/videos',
+    name: 'videos',
+    component: VideosPage
+  },
+  {
     path: '*',
-    redirect: { name: 'signin' }
+    redirect: { name: 'password' }
   }
-  // {
-  //   path: '/about',
-  //   name: 'about',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  // }
 ]
 
 const router = new VueRouter({
+  mode: 'history',
   routes
 })
 

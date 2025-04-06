@@ -1,3 +1,3 @@
 export function wip () {
-  alert('Ooops, this feature isn\'t available yet... Feel free to contribute on our Github repository (lhsazevedo/vuetify-material-auth).')
+  alert('Está é uma plataforma para exibição de videos privada, pegue a senha de acesso com o responsavel dos vídeos')
 }

@@ -6,8 +6,10 @@
       color="secondary"
       text
       small
+      href="http://easinfo.com.br/"
+      target="_blank"
     >
-      {{ $vuetify.lang.t('$vuetify.login.footer.language') }}
+      EAS Entire Automatic Solutions
     </v-btn>
     <div style="margin-right: -12px;">
       <v-btn
@@ -16,23 +18,7 @@
         text
         small
       >
-        {{ $vuetify.lang.t('$vuetify.login.footer.help') }}
-      </v-btn>
-      <v-btn
-        class="text-none letter-spacing-0"
-        color="secondary"
-        text
-        small
-      >
-        {{ $vuetify.lang.t('$vuetify.login.footer.privacy') }}
-      </v-btn>
-      <v-btn
-        class="text-none letter-spacing-0"
-        color="secondary"
-        text
-        small
-      >
-        {{ $vuetify.lang.t('$vuetify.login.footer.terms') }}
+        nome do cliente
       </v-btn>
     </div>
   </div>
