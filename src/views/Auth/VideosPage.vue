@@ -121,7 +121,7 @@ export default {
         },
         {
           title: 'Como cadastrar produtos',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: 'pXazpTJQiEc',
           description: 'Aprenda a cadastrar, editar e remover produtos com facilidade.'
         }
       ]
