@@ -115,14 +115,14 @@ export default {
       selectedVideoId: '',
       videos: [
         {
-          title: 'Frente do predio',
-          videoId: 'pXazpTJQiEc',
-          description: 'Esta é a frente do condominio'
+          title: 'Introdução',
+          videoId: 'RIM2zZf7edQ',
+          description: 'Esta é uma introdução feita para explicar sobre conteúdo presente nesta plataforma.'
         },
         {
-          title: 'Como cadastrar produtos',
-          videoId: 'dQw4w9WgXcQ',
-          description: 'Aprenda a cadastrar, editar e remover produtos com facilidade.'
+          title: 'Episódio: 1 - Combate a incêndios',
+          videoId: 'Cb-5yMYML4c',
+          description: 'Neste episódio mostramos a situação que encontramos ao assumir o condomínio em relação a casos de incêndio e as medidas que estamos tomando para resolver o problema'
         }
       ]
     }
