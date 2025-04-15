@@ -18,7 +18,7 @@
         text
         small
       >
-        nome do cliente
+        Rio Mar 3
       </v-btn>
     </div>
   </div>

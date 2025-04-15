@@ -4,20 +4,19 @@
       <h1 class="text-h5 mb-2">
         Bem-vindo!
       </h1>
-      logo do cliente aqui
       <v-img
         class="mb-10 mx-auto d-block"
-        src="@/assets/logo.svg"
-        alt="Vuetify Logo"
+        src="@/assets/Logo.png"
+        alt="Rio mar Logo"
         contain
-        height="80"
-        width="80"
+        height="160"
+        width="160"
       />
 
-      <v-form>
+      <v-form @submit.prevent="next">
         <v-text-field
           v-model="password"
-          class="mb-10"
+          class="mb-10 eye-color"
           :append-icon="show ? 'mdi-eye-off-outline' : 'mdi-eye-outline'"
           :label="$vuetify.lang.t('senha')"
           name="password"
@@ -83,3 +82,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.eye-color ::v-deep .v-icon {
+  color: #506648;
+}
+h1{
+  color: #506648;
+  font-weight: bold;
+}
+</style>

@@ -3,7 +3,8 @@
     <v-card
       class="auth-card"
       :class="{ signup: $route.name === 'signup' }"
-      style=""
+      style="border: solid 2px;
+      border-color: #506648;"
       outlined
       :disabled="disabled"
     >

@@ -20,7 +20,7 @@ export default new Vuetify({
   theme: {
     themes: {
       light: {
-        primary: '#1a73e8' // #E53935
+        primary: '#506648' // #E53935
       }
     }
   }

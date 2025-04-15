@@ -3,15 +3,15 @@
     <div class="videos-page pa-6">
       <div class="text-center mb-4">
         <v-img
-          src="@/assets/logo.svg"
-          alt="Logo Vuetify"
+          src="@/assets/Logo.png"
+          alt="Logo rio mar"
           contain
-          height="80"
-          width="80"
+          height="160"
+          width="160"
           class="mx-auto"
         />
         <h2 class="mt-2 font-weight-bold">
-          Nome do cliente
+          Condomínio Rio Mar
         </h2>
       </div>
 
@@ -159,7 +159,7 @@ export default {
 
 .triangle,
 .circle {
-  stroke: #1976D2;
+  stroke: #506648;
 }
 
 .footer {
