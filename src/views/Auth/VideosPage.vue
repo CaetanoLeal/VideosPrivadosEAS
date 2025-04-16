@@ -116,12 +116,12 @@ export default {
       videos: [
         {
           title: 'Introdução',
-          videoId: 'RIM2zZf7edQ',
+          videoId: 'Mj6zICTFjAM',
           description: 'Esta é uma introdução feita para explicar sobre conteúdo presente nesta plataforma.'
         },
         {
           title: 'Episódio: 1 - Combate a incêndios',
-          videoId: 'Cb-5yMYML4c',
+          videoId: 'C3Ko56ImpSM',
           description: 'Neste episódio mostramos a situação que encontramos ao assumir o condomínio em relação a casos de incêndio e as medidas que estamos tomando para resolver o problema'
         }
       ]

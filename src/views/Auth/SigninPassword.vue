@@ -73,7 +73,7 @@ export default {
   methods: {
     wip,
     next () {
-      if (this.password === 'minhaSenhaSuperSecreta') {
+      if (this.password === 'rmbloco3-videos') {
         this.$router.push({ name: 'videos' })
       } else {
         alert('Senha incorreta!')
