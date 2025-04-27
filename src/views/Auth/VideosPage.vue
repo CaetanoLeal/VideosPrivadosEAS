@@ -116,13 +116,18 @@ export default {
       videos: [
         {
           title: 'Introdução',
-          videoId: 'Mj6zICTFjAM',
+          videoId: 'kWeTEvMOwWM',
           description: 'Esta é uma introdução feita para explicar sobre conteúdo presente nesta plataforma.'
         },
         {
           title: 'Episódio: 1 - Combate a incêndios',
           videoId: 'C3Ko56ImpSM',
-          description: 'Neste episódio mostramos a situação que encontramos ao assumir o condomínio em relação a casos de incêndio e as medidas que estamos tomando para resolver o problema'
+          description: 'Neste episódio mostramos a situação que encontramos ao assumir o condomínio em relação a casos de incêndio e as medidas que estamos tomando para resolver o problema.'
+        },
+        {
+          title: 'Episódio: 2 - Infiltrações',
+          videoId: 'Tymm1Y8Q-4A',
+          description: 'Neste episódio, mostramos algumas das infiltrações que encontramos no condomínio e tudo o que estamos fazendo para resolver. Também mostramos o que já foi resolvido.'
         }
       ]
     }
