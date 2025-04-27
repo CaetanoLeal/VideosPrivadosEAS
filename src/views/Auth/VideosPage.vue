@@ -99,7 +99,7 @@
     >
       <v-col>
         <span>
-          &copy; {{ new Date().getFullYear() }} EAS Entira Automatic Solutions em parceria com Caetano Leal
+          &copy; {{ new Date().getFullYear() }} Condomínio RioMar bloco 3
         </span>
       </v-col>
     </v-footer>
