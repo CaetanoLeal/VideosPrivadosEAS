@@ -20,7 +20,7 @@ const routes = [
     ]
   },
   {
-    path: '/videos',
+    path: '/rmbloco3-videos',
     name: 'videos',
     component: VideosPage
   },
