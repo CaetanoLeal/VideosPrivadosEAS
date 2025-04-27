@@ -21,7 +21,7 @@ const routes = [
   },
   {
     path: '/rmbloco3-videos',
-    name: 'videos',
+    name: 'rmbloco3-videos',
     component: VideosPage
   },
   {
