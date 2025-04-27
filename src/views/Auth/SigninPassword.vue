@@ -74,7 +74,7 @@ export default {
     wip,
     next () {
       if (this.password === 'rmbloco3-videos') {
-        this.$router.push({ name: 'videos' })
+        this.$router.push({ name: 'rmbloco3-videos' })
       } else {
         alert('Senha incorreta!')
       }
