@@ -128,6 +128,11 @@ export default {
           title: 'Episódio: 2 - Infiltrações',
           videoId: 'Tymm1Y8Q-4A',
           description: 'Neste episódio, mostramos algumas das infiltrações que encontramos no condomínio e tudo o que estamos fazendo para resolver. Também mostramos o que já foi resolvido.'
+        },
+        {
+          title: 'Episódio: 3 - Administração',
+          videoId: 'aoPrweTC2i0',
+          description: 'Neste episódio, apresentamos a administração do condomínio e as ações que estão sendo tomadas para melhorar nosso espaço. Também os próximos passos para uma gestão mais eficiente e transparente.'
         }
       ]
     }
