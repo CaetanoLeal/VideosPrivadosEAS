@@ -135,7 +135,7 @@ export default {
           description: 'Neste episódio, apresentamos a administração do condomínio e as ações que estão sendo tomadas para melhorar nosso espaço. Também os próximos passos para uma gestão mais eficiente e transparente.'
         },
         {
-          title: 'Episódio: 4 - Elevador e casa de máquinas',
+          title: 'Episódio: 4 - Elevadores: Casa de máquinas',
           videoId: 'v9n_RRP0-KY',
           description: 'Neste episódio, em parceria com o consultor da elevpro: Gustavo. Explicamos a situação do elevador e da casa de máquinas.'
         }
